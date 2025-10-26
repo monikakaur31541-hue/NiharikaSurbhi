@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial ,Helvetica ,sans-serif;
+}
+nav{
+    background-color:rgb(13, 35, 203) ;
+    padding: 10px;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    list-style: circle;
+    margin: 5%;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: dotted;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: darkolivegreen;
+}
+
+.hero{
+    display:flex;
+}
+.hero .left{
+    background-color:rgb(36, 193, 224);
+    padding-left: 3rem ;
+    text-decoration: dotted;
+}
+.hero .right{
+    background-color: cadetblue;
+    justify-content: center;
+    text-decoration: dotted;
+}
+.hero .hero_split{
+    width:50%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    text-decoration: dotted;
+    
+}
+
+.content h1{
+    font-size: 5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .1rem rgb(13, 35, 203);
+    letter-spacing: .1rem;
+    font-family: "Lemon", serif;
+    text-decoration: dotted;
+}
+.content p{
+    color:rgb(5, 4, 4);
+    font-size: 1.3rem;
+    width: 75%;
+    margin: 1rem 0;
+    line-height: 2rem;
+    text-decoration: dotted;
+    
+}
+
+.content h1{
+    font-size: 5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .1rem rgb(237, 131, 17);
+    letter-spacing: .1rem;
+    font-family: "Lemon", serif;
+    text-decoration: dotted;
+}
+.content p{
+    color:rgb(40, 9, 219);
+    text-decoration: dotted;
+    font-size: 1.3rem;
+    width: 75%;
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+.box {
+    width:200px;
+    height:200px;
+    background-color: crimson;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px gray;
+
+}
